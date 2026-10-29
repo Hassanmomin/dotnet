@@ -1,0 +1,62 @@
+Practical-2
+
+f. Write the program to use Exception Handling features of C#.
+
+Program.cs
+using System;
+
+class Program
+
+{
+
+     static void Main(string[] args)
+
+     {
+
+         try
+
+         {
+
+             int a, b, result;
+
+             Console.Write("Enter First Number: ");
+
+             a = Convert.ToInt32(Console.ReadLine());
+
+             Console.Write("Enter Second Number: ");
+
+             b = Convert.ToInt32(Console.ReadLine());
+
+             result = a / b;
+
+             Console.WriteLine("Result = " + result);
+
+         }
+
+         catch (DivideByZeroException)
+
+         {
+
+             Console.WriteLine("Cannot divide by zero.");
+
+         }
+
+         finally
+
+         {
+
+             Console.WriteLine("Program Ended.");
+
+         }
+
+         Console.ReadLine();
+
+     }
+
+}
+
+Output:
+
+                                           Practical- 3
+
+Aim: Write the program for the following:

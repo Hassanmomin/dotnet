@@ -1,0 +1,31 @@
+Practical-4
+
+c. Create Web Form to demonstrate use of Adrotator Control.
+
+AdRotatorDemo.aspx
+
+Ads.xml
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+
+         <Ad>
+                   <ImageUrl>Images/ad1.jpg</ImageUrl>
+                   <NavigateUrl>https://www.google.com</NavigateUrl>
+                   <AlternateText>Google</AlternateText>
+                   <Impressions>30</Impressions>
+         </Ad>
+
+         <Ad>
+                   <ImageUrl>Images/ad2.jpg</ImageUrl>
+                   <NavigateUrl>https://www.microsoft.com</NavigateUrl>
+                   <AlternateText>Microsoft</AlternateText>
+                   <Impressions>30</Impressions>
+         </Ad>
+</Advertisements>
+
+Output:
+
+                                          Practical-5
+
+5. Create the following application:

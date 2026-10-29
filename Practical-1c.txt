@@ -1,0 +1,57 @@
+Practical- 1
+
+c. Write a C# Program to Arrange the Names of 10 Cities in Sorted Order
+
+Aim: To create a C# application that accepts the names of 10 cities from the
+user and displays them in sorted (alphabetical) order.
+
+Algorithm
+
+        1.   Start the program.
+        2.   Declare a string array of size 10.
+        3.   Accept the names of 10 cities from the user.
+        4.   Use Array.Sort()to sort the city names alphabetically.
+        5.   Display the sorted list of cities.
+        6.   Stop the program.
+C# Program (Console Application)
+using System;
+
+class Program
+
+{
+
+    static void Main(string[] args)
+
+    {
+
+         string[] cities = new string[10];
+
+         Console.WriteLine("Enter the names of 10 cities:"); for (int i = 0; i < 10; i++)
+
+         {
+
+             Console.Write("City " + (i + 1) + ": "); cities[i] = Console.ReadLine();
+
+         }
+
+         // Sort the city names Array.Sort(cities);
+
+         Console.WriteLine("\nCities in Sorted Order:");
+
+         foreach (string city in cities)
+
+         {
+
+             Console.WriteLine(city);
+
+         }
+
+         Console.ReadLine();
+
+    }
+
+}
+
+Output:
+
+                                             Practical-2
